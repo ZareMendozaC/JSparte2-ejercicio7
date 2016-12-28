@@ -16,5 +16,6 @@
         + mostrar el resultado
     - Si no
         + falso, return 0
+        + mostrar el resultado
 
 *Fin* 
