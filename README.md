@@ -5,6 +5,7 @@
 - numero1
 - numero2
 - valor negative
+
 ## Proceso
 - si alguno de los dos es negativo y el valor de negative es falso, entonces 
     - verdad, return 1  
