@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PosNeg</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+	<link rel="stylesheet icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/queries.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1>PosNeg</h1>
+				<p>Jugamos?</p>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 col-md-offset-2">
+				<div class="form-group">
+					<label for="pregunta">Ingresa un número</label>
+					<input type="text" class="form-control" id="numero1" placeholder="">
+				</div>
+				<div class="form-group">
+					<label for="pregunta">Ingresa un número</label>
+					<input type="text" class="form-control" id="numero2" placeholder="">
+				</div>
+				<div class="form-group">
+					<label for="nega">El valor del negative es?</label>
+					<select class="form-control" id="nega">
+						<option value="1">True</option>
+						<option value="0">False</option>
+					</select>
+				</div>
+
+				<button onclick="calcular()" class="btn btn-success">Evaluar</button>
+				<button onclick="limpiar()" class="btn btn-success pull-right">Limpiar</button>
+			</div>
+			<div class="col-md-3 text-center resultado">
+				<div id="respuesta" class="frase" class="text-center">-</div>
+				
+			</div>
+	</section>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>

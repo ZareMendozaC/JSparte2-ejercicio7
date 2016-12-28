@@ -1,0 +1,42 @@
+/* Inserta tu código aquí */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url(../image/fondo5.jpg) no-repeat center;
+	background-size: cover;
+	height: 620px;
+}
+.container{
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: rgba(11,66,53,0.7);
+	height: 600px;
+	max-width: 100%;
+}
+.container h1 {
+	color: white;
+}
+.container p {
+	color: white;
+}
+.resultado .frase{
+	font-size: 20px;
+}
+.form-group{
+	color: white;
+}
+.resultado{
+	color: white;
+}
+.resultado h4{
+	color: white;
+}
+.row .btn{
+	margin-top: 20px;
+}
+
+.result{
+	background-color: rgba(92,184,92,0.3);
+	padding-right: 12px;
+}
