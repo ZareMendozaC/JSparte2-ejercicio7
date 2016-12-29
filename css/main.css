@@ -40,3 +40,18 @@ body{
 	background-color: rgba(92,184,92,0.3);
 	padding-right: 12px;
 }
+
+.navegacion { 
+	margin-top: 100px;
+}
+.navegacion a{
+	text-decoration: none;
+}
+.navegacion .micode{
+	color: #f0ad4e;
+	font-size: 20px;
+}
+.navegacion .micode:hover{
+	color: #5cb85c;
+	font-size: 20px;
+}
